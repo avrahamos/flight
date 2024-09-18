@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 90%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.bookingFlights {
+  margin-top: 20px;
+}
+
+.bookingInp {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+}
+
+.gender {
+  margin-bottom: 10px;
+}
+
+.gender input {
+  margin-left: 5px;
+}
+
+.flList select {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+}
+
+.addPassenger {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.addPassenger:hover {
+  background-color: #218838;
+}
+
+.passengerList {
+  margin-top: 15px;
+}
+
+.passengerList h3 {
+  font-size: 18px;
+  color: #333;
+}
+
+#passengerList {
+  list-style: none;
+  padding-left: 0;
+}
+
+#passengerList li {
+  padding: 8px;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.popup {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 15px;
+  margin: 50px auto;
+  width: 80%;
+  max-width: 300px;
+}
+
+.close-btn {
+  color: red;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.myPassengers {
+  background-color: #dcdcdc;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.myPassengers:hover {
+  background-color: #ccc;
+}

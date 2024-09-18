@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flight Booking</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Flight Booking System</h1>
+      <div class="bookingFlights">
+        <input
+          type="text"
+          class="bookingInp"
+          placeholder="Enter your name"
+          required
+        />
+        <div>
+          <label class="gender">
+            Male
+            <input type="radio" name="gender" value="male" />
+            Female
+            <input type="radio" name="gender" value="female" />
+          </label>
+        </div>
+        <div class="flList">
+          <select name="" id="flights" required>
+            <option value="" selected disabled>Choose flight</option>
+          </select>
+        </div>
+        <button type="submit" class="addPassenger">Submit</button>
+        <button class="myPassengers">My Passengers</button>
+      </div>
+
+      <div class="passengerList">
+        <h3>Passengers List</h3>
+        <ul id="passengerList"></ul>
+      </div>
+    </div>
+
+    <div id="editPopup" class="popup" style="display: none">
+      <div class="popup-content">
+        <span id="closePopup">&times;</span>
+        <h3>Edit Passenger</h3>
+        <input type="text" id="editName" placeholder="Edit name" required />
+        <button id="saveEdit">Save</button>
+      </div>
+    </div>
+  </body>
+</html>
